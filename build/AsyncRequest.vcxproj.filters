@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\source\web\http_file_source.cpp">
+      <Filter>web</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\actor\mailbox.cpp">
+      <Filter>actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\loop\async_task.cpp">
+      <Filter>loop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\loop\run_loop.cpp">
+      <Filter>loop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\loop\work_request.cpp">
+      <Filter>loop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\web\response.cpp">
+      <Filter>web</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\web\timer.cpp">
+      <Filter>web</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\actor\thread_local.cpp">
+      <Filter>actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\actor\thread_pool.cpp">
+      <Filter>actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\actor\scheduler.cpp">
+      <Filter>actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\source\actor\actor.hpp">
+      <Filter>actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\actor\actor_ref.hpp">
+      <Filter>actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\actor\aspiring_actor.hpp">
+      <Filter>actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\actor\established_actor.hpp">
+      <Filter>actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\web\http_file_source.hpp">
+      <Filter>web</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\actor\mailbox.hpp">
+      <Filter>actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\actor\message.hpp">
+      <Filter>actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\loop\async_request.hpp">
+      <Filter>loop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\loop\async_task.hpp">
+      <Filter>loop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\loop\noncopyable.hpp">
+      <Filter>loop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\loop\run_loop.hpp">
+      <Filter>loop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\loop\work_request.hpp">
+      <Filter>loop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\loop\work_task.hpp">
+      <Filter>loop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\web\response.hpp">
+      <Filter>web</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\web\timer.hpp">
+      <Filter>web</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\web\thread.hpp">
+      <Filter>web</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\actor\thread_pool.hpp">
+      <Filter>actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\actor\scheduler.hpp">
+      <Filter>actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\actor\thread_local.hpp">
+      <Filter>actor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="actor">
+      <UniqueIdentifier>{a55d14c0-977b-4edc-99bc-858cafa8b919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="web">
+      <UniqueIdentifier>{3b3fc6af-7e16-45a5-a7bc-c3308533894f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="loop">
+      <UniqueIdentifier>{104973a6-2698-4c9a-a802-b80563315f6c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
